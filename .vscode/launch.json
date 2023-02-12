@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Launch",
+        "program": "${workspaceFolder}/a.out",
+        "console": "integratedTerminal", // 내장 터미널을 사용하는 것입니다.
+        // "console": "externalTerminal", // 외부 터미널을 사용하는 것입니다.
+        "args": [],
+        "cwd": "${workspaceFolder}"
+    }
+    ]
+}
